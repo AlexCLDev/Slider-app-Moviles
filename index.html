@@ -1,48 +1,307 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
-				</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Bienvenidos a mi Slider</h3>
+          <p>Soy Alexander Coronado</p>
+          <img src="img/2x2.jpeg" style="height: 150px" />
+          <p>Matricula 2020-10706</p>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="opacity: 0.2; margin-top: 100px">Y hablaremos de:</p>
+          <p>Introducción al Desarrollo de Aplicaciones Móviles</p>
+          <img src="img/rn.jpg" style="height: 150px" />
+        </section>
+        <section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            Plataformas para las que vale la pena desarrollar:
+            Slide 1.1
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+            --
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+            ## Android
+            Slide 1.2
+
+            --
+
+            ## Iphone
+            Slide 2
+          </script>
+        </section>
+        <section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Lenguajes de programación usados para programar en móvil.
+            down
+
+            --
+
+            ## Java:
+            Java se caracteriza por su rapidez, facilidad de uso, así como su amplio abanico de posibilidades. Java es un gran lenguaje de programación, ideal tanto para apps móviles como para crear softwares a medida.
+			<img src=""/>
+
+            --
+
+            ## Kotlin
+            <p>Kotlin dispone de un código muy intuitivo, sencillo y eficaz. 
+				Fue diseñado para operar conjuntamente con Java; no obstante, desde hace unos años, Google lo recomienda para el desarrollo de aplicaciones para Android. Sí, es su preferido.</p>
+
+            --
+
+            ## JavaScript
+            <p>Si estás pensando en crear una app multiplataforma, JavaScript puede ser el lenguaje de programación para móvil que estés buscando. Es rápido, versátil, sencillo y destaca por su funcionalidad.
+				Además, JavaScript se ocupa de mejorar la experiencia de usuario, gracias a su interactividad.</p>
+
+
+          </script>
+        </section>
+        <section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Python 
+            <p>Las aplicaciones móviles con Python destacan por su código. Python facilita el trabajo a los programadores o ingenieros informáticos, ya que se utilizan menos líneas de código que en el caso de Java</p>
+
+
+            --
+
+            ## Swift
+            <p>Este lenguaje creado por la gran manzana Apple ya no solo opera con apps para iOS, sino también sirve para Windows, Linux o macOS.
+				Swift es un lenguaje de código abierto y también queríamos mencionarlo en esta selección de lenguajes de programación para móvil</p>
+	
+
+            --
+
+            ## Desliza
+          </script>
+        </section>
+		<section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Tipos de aplicaciones móviles
+            down
+
+            --
+
+            ## Aplicaciones web:
+            <p>Utilizan como tecnología: HTML5, CSS, JavaScript o lenguajes de programación utilizados para desarrollo web.</p>
+				<p>Tienen la ventaja de que pueden ser ejecutadas en cualquier plataforma o dispositivo, no requieren ser descargadas y son fáciles de mantener o actualizar.
+				</p>
+
+            --
+
+            ## Nativas
+            <p>Utilizan como tecnología: Java, Kotlin, Swift, Objective-C, Python.</p>
+				<p>Tienen la ventaja de ser más rápidas, estables y eficientes con los recursos del dispositivo, por lo que hace más agradable la experiencia del usuario. Pueden hacer uso de todos los recursos del dispositivo, por ejemplo los contactos o el almacenamiento.
+				</p>
+
+            --
+
+            ## Híbridas
+            <p>Utilizan como tecnología: React native, Angular o Ionic.</p>
+				<p>Tienen la ventaja de verse y ejecutarse como si fuera una aplicación nativa, pero su desarrollo es más rápido y económico, pues utilizan el mismo código para Android y para IOS, lo que repercute también en una mejora en el tiempo de desarrollo de actualizaciones.
+				</p>
+
+          </script>
+
+        </section>
+		<section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Etapas para el desarrollo de aplicaciones móviles.
+            down
+
+            --
+
+            ## ¿Cuánto me quiero gastar? Elaboración del presupuesto:
+            <p>Antes de pensar el tipo de aplicación que se desea, hay que analizar los recursos que se destinarán al proyecto. Partiendo del presupuesto, se podrá desarrollar una aplicación móvil de mayor envergadura y con múltiples funcionalidades u otra más sencilla. Una vez establecido, es el momento de determinar la idea que se quiere llevar a cabo</p>
+
+
+            --
+
+            ## La idea: ¿Qué va a hacer la app?
+            <p>En la segunda de las fases de desarrollo de una aplicación móvil, se plantean con exactitud la dimensión que se desea para la app. Se deben tener en cuenta las necesidades de los usuarios o los problemas que se quieren solucionar. Partiendo de esas características, se pasará a definir un concepto determinado y el valor añadido que puede aportar.</p>
+
+            --
+
+            ## Elegir al proveedor de desarrollo
+            <p>Al momento de seleccionar al proveedor y la tecnología de la app, siempre recomendamos trabajar con una empresa que transmita confianza desde el primer momento, con quien os sintáis cómodos y que respire experiencia en desarrollos tecnológicos. Además, existen beneficios adicionales a tener en cuenta, como si realiza entregas parciales de la app o proporciona el código fuente al finalizar el desarrollo.</p>
+
+          </script>
+        </section>
+		<section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Análisis de los requerimientos
+            <p>Tras una investigación del sector y de la competencia, es momento de definir el alcance del proyecto. En un trabajo en equipo junto con los desarrolladores se concreta cada funcionalidad de la app y se analizan todos los casos de uso. Pasa de lo general a lo concreto, lo qué se va a ofrecer en cada una de las pantallas. </p>
+
+            --
+
+            ## Quinta fase de desarrollo de una aplicación móvil: La planificación
+            <p>Cualquier proyecto requiere de una fase de planning en la que se establecerán las directrices. Un calendario de trabajo que especifica la lista de acciones a realizar hasta el cierre del proyecto: el tiempo de desarrollo, las campañas de marketing, la subida a las tiendas o el lanzamiento de la app. Es conveniente avisar al desarrollador sobre la fecha del lanzamiento deseada, para coordinar la fecha de subida a las tiendas.</p>
+
+
+            --
+
+            ## UX y diseño gráfico de la aplicación
+            <p>En esta fase de desarrollo de una aplicación móvil se definirán el contenido y las interacciones de la app acorde a la experiencia de usuario. Se elabora la propuesta visual de las pantallas, siguiendo la imagen de marca y las tendencias del diseño de apps , siempre pensando en ofrecer la mejor experiencia para los usuarios. Estos diseños se crearán mediante wireframes y prototipos, que serán la base para el desarrollador.</p>
+
+            --
+
+            ## Desarrollo del software y creación de la app final
+            <p>¿Aplicaciones nativas, híbridas o web-apps? El desarrollador mediante código comienza a construir la aplicación móvil con el lenguaje de programación y tecnología indicados en la fase de análisis. Como hemos mencionado, recomendamos la existencia de entregas parciales y periódicas para que se vea la evolución del producto. Gracias a ello, se pueden corregir a tiempo los fallos que surjan según que avanza el desarrollo.</p>
+
+          </script>
+        </section>
+		<section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Mejorar los detalles: Testing o revisión de la app
+            En esta etapa se realizan una serie de pruebas que aseguren la calidad de la plataforma. QA (Quality Assurance) es un proceso de evolución y mejora continua donde se realizan acciones para comprobar que todas las acciones que pueda hacer un usuario dentro de la app funcionen correctamente en todos los dispositivos.
+
+            --
+
+            ## Fase de lanzamiento en el desarrollo de una aplicación móvil
+            <p>Una vez se garantice la calidad, es momento de ofrecer la app a los usuarios. Se puede subir en las tiendas de aplicaciones como App Store y Google Play, por lo que se recomienda tener en cuenta el tiempo de publicación y aprobación de ambas para la fecha de lanzamiento de la app. También se puede dar a conocer mediante acciones de marketing, con landing pages, banners y publicidad o mejorando el posicionamiento ASO en las stores para su popularización.</p>
+
+
+            --
+
+            ## Mantenimiento a largo plazo
+            <p>Todo software se actualiza, por ejemplo, se van publicando nuevos sistemas operativos, cambian las políticas de las tiendas o se venden versiones superiores de los modelos de smartphones. Por ello, hay que contar con un proveedor  que tras su lanzamiento continúe optimizando y manteniendo la aplicación móvil en el largo plazo.</p>
+
+          </script>
+        </section>
+		<section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Frameworks que se pueden usar para desarrollar aplicaciones. 
+            down
+
+            --
+
+            ## Flutter
+            <p>El principal beneficio de Flutter frente a otro framework es que ofrece la posibilidad de crear aplicaciones nativas multiplataforma.
+
+				Esta no es la única oportunidad que ofrece a los desarrolladores. Entre sus múltiples funcionalidades podemos destacar: Widgets, Hot Reload, Dart, Documentacion.</p>
+
+
+            --
+
+            ## React Native
+            <p>React Native atrae a las principales marcas por su alto rendimiento. Además, ofrece a los usuarios de las apps una experiencia con apariencia nativa. Finalmente, la comunidad de usuarios es tan grande que permite solucionar los problemas que surgen en el desarrollo o creación de apps.</p>
+
+            --
+
+            ## Ionic
+            <p>Al igual que la anterior, es uno de los frameworks que se emplea para el diseño de apps de móviles híbridas. Esto se debe a sus principales características: la potencia y la versatilidad.
+				Tu mejor opcion para crear app Hibridas.
+			</p>
+
+          </script>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Esto fue todo por mi exposicion</h3>
+          <p>Espero que la hayan disfrutado!</p>
+          <img src="assets/image1.png" style="height: 100px" />
+          <pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						function Gracias() {
+						  gracias();
+						}
+					</code></pre>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Esto fue todo por mi exposicion</h3>
+          <p style="opacity: 0.2; margin-top: 100px">Hasta la proxima.</p>
+          <p>Espero que la hayan disfrutado!</p>
+          <img src="assets/image1.png" style="height: 150px" />
+          <pre data-id="code"><code data-line-numbers class="hljs" data-trim>
+						function Despedida() {
+						  exit();
+						}
+					</code></pre>
+        </section>
+
+        <!-- Slides are separated by regexp matching newline + three dashes + newline, vertical slides identical but two dashes -->
+        <section
+          data-markdown
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        >
+          <script type="text/template">
+            ## Demo 2
+            Slide 1.1
+
+            --
+
+            ## Demo 2
+            Slide 1.2
+
+            --
+
+            ## Demo 2
+            Slide 2
+          </script>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
